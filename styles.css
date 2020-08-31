@@ -1,0 +1,156 @@
+header {
+	width: 100%;
+	background-image: url(img/layer.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fcfcfc;
+}
+
+.navbar-toggler {
+	background-image: url(img/menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.navbar {
+	background: transparent;
+}
+
+li a {
+	font-family: OpenSans, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #747480;
+	float: right;
+}
+
+li a:hover {
+	color: #747480;
+	background-color: #7beec7;
+}
+
+.hero h4 {
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	background-color: #7beec7;
+	color: #60606e;
+	text-align: center;
+	max-width: 98px;
+}
+
+.hero h1 {
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #60606e;
+	text-align: center;
+	border: solid 10px #60606e;
+	max-width: 555px;
+}
+
+.hero p {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 1.5;
+  text-align: center;
+  max-width: 537px;
+}
+
+.history .card {
+	max-width: 570px;
+	background: transparent;
+	border: none;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6;
+  text-align: left;
+  background-image: url(img/Shape4.png);
+  background-repeat: no-repeat;
+  background-position: 0% 85%;
+}
+
+.history p {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 1.875;
+  text-align: left;
+}
+
+.history .btn {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #7beec7;
+  border: none;
+  border-radius: 0;
+  position: absolute;
+  right: 10px;
+}
+
+.history img {
+	position: absolute;
+	left: 155px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+.navbar-expand-lg .navbar-toggler {
+    display: flex;	
+}
+
+.navbar-collapse {
+	display: flex;
+}
+}
+
+@media (max-width: 1200px) {
+	.history img {
+		max-width: 40%;
+	}
+
+	.history .card {
+	max-width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+	.history img {
+		display: none;
+	}
+
+	.history .card {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero h1 {
+	    font-size: 32px;
+	    border: solid 7px #60606e;
+    }
+
+    .history h2 {
+    	font-size: 28px;
+    }
+}
