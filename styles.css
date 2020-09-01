@@ -108,6 +108,50 @@ h2 {
 	left: 155px;
 }
 
+.intro h2 {
+	max-width: 275px;
+	background-position: 3% 92%;
+}
+
+.intro p {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 1.5;
+  text-align: center;
+  max-width: 720px;
+}
+
+.about .card {
+	max-width: 280px;
+	border: none;
+}
+
+.about img {
+	max-width: 32px;
+	max-height: 28px;
+}
+
+.about h3 {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.667;
+  text-align: left;
+}
+
+.about p {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 2.143;
+  text-align: left;
+}
+
+
 
 
 
@@ -134,13 +178,21 @@ h2 {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.history img {
 		display: none;
 	}
 
 	.history .card {
 		max-width: 600px;
+	}
+
+	.lgscreen {
+		display: none;
+	}
+
+	.about {
+		text-align: center;
 	}
 }
 
