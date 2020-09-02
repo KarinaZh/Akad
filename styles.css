@@ -17,7 +17,7 @@ header {
 	background: transparent;
 }
 
-li a {
+.navbar-nav a {
 	font-family: OpenSans, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -28,7 +28,7 @@ li a {
 }
 
 li a:hover {
-	color: #747480;
+	color: #ffffff;
 	background-color: #7beec7;
 }
 
@@ -113,7 +113,7 @@ h2 {
 	background-position: 3% 92%;
 }
 
-.intro p {
+.intro p, .portfolio p {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
@@ -151,6 +151,29 @@ h2 {
   text-align: left;
 }
 
+.portfolio p {
+	max-width: 730px;
+}
+
+.portfolio h2 {
+	max-width: 270px;
+	background-position: 1% 94%;
+}
+
+.sidebar h2 {
+	background: transparent;
+	max-width: 170px;
+}
+
+.sidebar a {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+}
 
 
 
@@ -191,9 +214,6 @@ h2 {
 		display: none;
 	}
 
-	.about {
-		text-align: center;
-	}
 }
 
 @media (max-width: 576px) {
