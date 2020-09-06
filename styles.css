@@ -175,7 +175,87 @@ h2 {
   text-decoration: none;
 }
 
+.card-columns .card {
+	border: none;
+	border-radius: 0;
+	max-width: 264px;
+}
 
+.card-columns {
+	max-width: 850px;
+}
+
+.contact {
+	background-color: #7beec7;
+	width: 100%;
+}
+
+.contact .card {
+	background: transparent;
+	border: none;
+}
+
+.contact h2 {
+	background: none;
+}
+
+.card-1 h2 {
+	color: #ffffff;
+}
+
+.card-1 .btn {
+	background-color: #ffffff;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(123, 238, 199);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-radius: 0;
+}
+
+.card-2 {
+	border-radius: 0;
+}
+
+.card-2 p {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.card-2 input {
+	border-radius: 0;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(205, 205, 205);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  height: 40.8px;
+}
+
+.card-2 .btn {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #7beec7;
+  border-radius: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.navbar-text {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  line-height: 3.429;
+}
 
 
 
@@ -189,6 +269,7 @@ h2 {
 .navbar-collapse {
 	display: flex;
 }
+
 }
 
 @media (max-width: 1200px) {
@@ -197,7 +278,11 @@ h2 {
 	}
 
 	.history .card {
-	max-width: 400px;
+	    max-width: 400px;
+    }
+
+    .card-columns {
+	    max-width: 750px;
     }
 }
 
@@ -214,6 +299,16 @@ h2 {
 		display: none;
 	}
 
+    .sidebar h2 {
+	    font-size: 28px;
+	    max-width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+	.sidebar {
+		display: none;
+	}
 }
 
 @media (max-width: 576px) {
@@ -224,5 +319,9 @@ h2 {
 
     .history h2 {
     	font-size: 28px;
+    }
+
+    .card-columns {
+    	margin: auto;
     }
 }
