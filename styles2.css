@@ -1,9 +1,9 @@
 header {
 	width: 100%;
-	background-image: url(img/layer.png);
+	background-image: url(img/Shape14.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #fcfcfc;
+	background-color: #d9d9da;
 }
 
 .navbar-toggler {
@@ -32,42 +32,67 @@ li a:hover {
 	background-color: #7beec7;
 }
 
-.hero h4 {
-	font-family: Montserrat, sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	text-transform: uppercase;
-	background-color: #7beec7;
-	color: #60606e;
-	text-align: center;
-	max-width: 98px;
+h1 {
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.333;
+  text-align: center;
 }
 
-.hero h1 {
-	font-family: Montserrat, sans-serif;
-	font-weight: bold;
-	font-size: 48px;
-	text-transform: uppercase;
-	color: #60606e;
-	text-align: center;
-	border: solid 10px #60606e;
-	max-width: 555px;
+.hero a, .hero p {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 3.429;
+  text-decoration: none;
+  text-align: center;
 }
 
-.hero p {
-  font-size: 16px;
+.hero a:hover {
+	color: #7beec7;
+}
+
+h6 {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 2.143;
+  text-align: left;
+}
+
+.article .card {
+	border: none;
+	max-width: 525px;
+}
+
+.intro h2 {
+	max-width: 275px;
+}
+
+.intro p {
+  font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
   line-height: 1.5;
   text-align: center;
-  max-width: 537px;
+  max-width: 720px;
 }
 
-.history .card {
-	max-width: 570px;
-	background: transparent;
-	border: none;
-}
 
 h2 {
   font-size: 30px;
@@ -80,109 +105,6 @@ h2 {
   background-image: url(img/Shape4.png);
   background-repeat: no-repeat;
   background-position: 0% 85%;
-}
-
-.history p {
-  font-size: 16px;
-  font-family: OpenSans, sans-serif;
-  color: rgb(96, 96, 110);
-  line-height: 1.875;
-  text-align: left;
-}
-
-.history .btn {
-  font-size: 14px;
-  font-family: Montserrat, sans-serif;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: #7beec7;
-  border: none;
-  border-radius: 0;
-  position: absolute;
-  right: 10px;
-}
-
-.history img {
-	position: absolute;
-	left: 155px;
-}
-
-.intro h2 {
-	max-width: 275px;
-	background-position: 3% 92%;
-}
-
-.intro p, .portfolio p {
-  font-size: 14px;
-  font-family: OpenSans, sans-serif;
-  color: rgb(96, 96, 110);
-  line-height: 1.5;
-  text-align: center;
-  max-width: 720px;
-}
-
-.whyus .card {
-	max-width: 280px;
-	border: none;
-}
-
-.whyus img {
-	max-width: 32px;
-	max-height: 28px;
-}
-
-.whyus h3 {
-  font-size: 18px;
-  font-family: Montserrat, sans-serif;
-  color: rgb(96, 96, 110);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 2.667;
-  text-align: left;
-}
-
-.whyus p {
-  font-size: 14px;
-  font-family: OpenSans, sans-serif;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  line-height: 2.143;
-  text-align: left;
-}
-
-.portfolio p {
-	max-width: 730px;
-}
-
-.portfolio h2 {
-	max-width: 270px;
-	background-position: 1% 94%;
-}
-
-.sidebar h2 {
-	background: transparent;
-	max-width: 170px;
-}
-
-.sidebar a {
-  font-size: 14px;
-  font-family: Montserrat, sans-serif;
-  color: rgb(96, 96, 110);
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: left;
-  text-decoration: none;
-}
-
-.card-columns .card {
-	border: none;
-	border-radius: 0;
-	max-width: 264px;
-}
-
-.card-columns {
-	max-width: 850px;
 }
 
 .contact {
@@ -297,44 +219,7 @@ footer nav a:last-child::after {
 
 }
 
-@media (max-width: 1200px) {
-	.history img {
-		max-width: 40%;
-	}
-
-	.history .card {
-	    max-width: 400px;
-    }
-
-    .card-columns {
-	    max-width: 750px;
-    }
-}
-
-@media (max-width: 991px) {
-	.history img {
-		display: none;
-	}
-
-	.history .card {
-		max-width: 600px;
-	}
-
-	.lgscreen {
-		display: none;
-	}
-
-    .sidebar h2 {
-	    font-size: 28px;
-	    max-width: 180px;
-    }
-}
-
 @media (max-width: 768px) {
-	.sidebar {
-		display: none;
-	}
-
 	footer .nav-link {
 	padding: 0 5px 0 0;
     }
@@ -344,20 +229,8 @@ footer nav a:last-child::after {
     }
 }
 
+
 @media (max-width: 576px) {
-	.hero h1 {
-	    font-size: 32px;
-	    border: solid 7px #60606e;
-    }
-
-    .history h2 {
-    	font-size: 28px;
-    }
-
-    .card-columns {
-    	margin: auto;
-    }
-
     footer nav a::after {
 	content: "";
     }
