@@ -82,9 +82,10 @@ h6 {
 
 .intro h2 {
 	max-width: 275px;
+  background-position: 1% 94%;
 }
 
-.intro p {
+.intro p, .benefits p {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
@@ -93,6 +94,10 @@ h6 {
   max-width: 720px;
 }
 
+.benefits p {
+  text-align: left;
+  line-height: 2.143;
+}
 
 h2 {
   font-size: 30px;
@@ -102,9 +107,29 @@ h2 {
   text-transform: uppercase;
   line-height: 1.6;
   text-align: left;
-  background-image: url(img/Shape4.png);
+  background-image: url(img/Shape4png.png);
   background-repeat: no-repeat;
   background-position: 0% 85%;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.667;
+  text-align: left;
+}
+
+.benefits img {
+  max-width: 40px;
+  border-radius: 0px;
+  float: left;
+}
+
+.benefits .card {
+  max-width: 350px;
 }
 
 .contact {
@@ -112,7 +137,7 @@ h2 {
 	width: 100%;
 }
 
-.contact .card {
+.contact .card, .benefits .card {
 	background: transparent;
 	border: none;
 }
@@ -216,7 +241,12 @@ footer nav a:last-child::after {
 .navbar-collapse {
 	display: flex;
 }
+}
 
+@media (max-width: 992px) {
+  .benefits .card {
+  max-width: 300px;
+}
 }
 
 @media (max-width: 768px) {
@@ -227,6 +257,11 @@ footer nav a:last-child::after {
     footer nav a::after {
 	padding-left: 5px;
     }
+
+    .benefits .card {
+  max-width: 360px;
+}
+
 }
 
 
