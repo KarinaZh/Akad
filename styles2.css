@@ -132,6 +132,87 @@ h5 {
   max-width: 350px;
 }
 
+.theteam img {
+  max-width: 265px;
+  max-height: 336px;
+}
+
+.readmore {
+  background-color: #efeff0;
+}
+
+.readmore p {
+  font-size: 18px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  font-style: italic;
+  line-height: 2.667;
+  text-align: left;
+}
+
+.readmore .btn {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 3.429;
+  background-color: #7beec7;
+  border-radius: 0;
+}
+
+.carousel-item .card-text {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 2.143;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 83px;
+}
+
+.carousel-item .btn {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.143;
+  text-align: center;
+  background-color: #7beec7;
+  border: none;
+  border-radius: 0;
+}
+
+.carousel-item .card {
+  border: none;
+  background: transparent;
+}
+
+.carousel {
+  max-width: 575px;
+}
+
+.carousel-indicators li {
+  background-color: #60606e;
+  padding-top: 3px;
+}
+
+.carousel-indicators li:hover {
+  background-color: #7beec7;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -30px;
+}
+
+.clients {
+  max-width: 530px;
+}
+
 .contact {
 	background-color: #7beec7;
 	width: 100%;
@@ -231,6 +312,15 @@ footer nav a:last-child::after {
 }
 
 
+@media (max-width: 1200px) {
+  .clients {
+  max-width: 430px;
+}
+
+.carousel {
+  max-width: 480px;
+}
+}
 
 @media (min-width: 992px) {
 
@@ -247,6 +337,14 @@ footer nav a:last-child::after {
   .benefits .card {
   max-width: 300px;
 }
+  .clients {
+  max-width: 580px;
+}
+
+.carousel {
+  max-width: 570px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -261,12 +359,11 @@ footer nav a:last-child::after {
     .benefits .card {
   max-width: 360px;
 }
-
 }
-
 
 @media (max-width: 576px) {
     footer nav a::after {
 	content: "";
     }
 }
+
