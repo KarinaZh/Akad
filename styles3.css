@@ -59,7 +59,8 @@ h1 {
 
 .intro h2 {
 	max-width: 290px;
-  background-position: 1% 94%;
+  background-position: 15% 90%;
+  text-align: center;
 }
 
 .intro p {
@@ -90,11 +91,8 @@ h2 {
   color: rgb(96, 96, 110);
   line-height: 2.143;
   text-align: left;
-  max-width: 590px;
-}
-
-.whatwedo img {
-	max-width: 500px;
+  max-width: 530px;
+  list-style-image: url(img/marker.png);
 }
 
 .contact {
@@ -195,9 +193,27 @@ footer nav a:last-child::after {
 	color: #7beec7;
 }
 
+@media (max-width: 1200px) {
+	.whatwedo img {
+		max-width: 45%;
+	}
+
+	.whatwedo p, .whatwedo ul {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 992px) {
+	.whatwedo img {
+		max-width: 100%;
+	}
+
+	.whatwedo p, .whatwedo ul {
+		max-width: 550px;
+	}
+}
 
 @media (min-width: 992px) {
-
 .navbar-expand-lg .navbar-toggler {
     display: flex;	
 }
