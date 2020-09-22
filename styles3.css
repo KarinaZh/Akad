@@ -85,7 +85,7 @@ h2 {
   background-position: 0% 85%;
 }
 
-.whatwedo p, .whatwedo ul {
+.whatwedo p, .whatwedo ul, .about p {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
@@ -93,6 +93,28 @@ h2 {
   text-align: left;
   max-width: 530px;
   list-style-image: url(img/marker.png);
+}
+
+.about .card {
+	border: none;
+	border-radius: 0;
+	max-width: 230px;
+}
+
+.about img {
+	max-width: 62px;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  line-height: 1.667;
+}
+
+.about p {
+	text-align: center;
 }
 
 .contact {
