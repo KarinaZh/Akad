@@ -58,12 +58,18 @@ h1 {
 }
 
 .intro h2 {
-	max-width: 290px;
+  max-width: 290px;
   background-position: 15% 90%;
   text-align: center;
 }
 
-.intro p {
+.price h2 {
+  background-position: 10% 90%;
+  max-width: 290px;
+  text-align: center;
+}
+
+.intro p, .price p {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
@@ -85,7 +91,7 @@ h2 {
   background-position: 0% 85%;
 }
 
-.whatwedo p, .whatwedo ul, .about p {
+.whatwedo p, .whatwedo ul, .about p, .pricing ul {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   color: rgb(96, 96, 110);
@@ -116,6 +122,35 @@ h5 {
 .about p {
 	text-align: center;
 }
+
+.pricing .card {
+	border: none;
+	border-radius: 0;
+	background-image: url(img/border.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 100px 0 10px;
+}
+
+.pricing .card:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.pricing h2 {
+	background-image: none;
+}
+
+.pricing .btn {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #7beec7;
+  border-radius: 0;
+}
+
 
 .contact {
 	background-color: #7beec7;
@@ -223,6 +258,10 @@ footer nav a:last-child::after {
 	.whatwedo p, .whatwedo ul {
 		max-width: 500px;
 	}
+
+	.pricing .card {
+	padding: 0 60px 0 0px;
+}
 }
 
 @media (max-width: 992px) {
@@ -254,11 +293,19 @@ footer nav a:last-child::after {
     footer nav a::after {
 	padding-left: 5px;
     }
+
+    .pricing .card {
+	padding: 0 100px 0 10px;
+}
 }
 
 @media (max-width: 576px) {
     footer nav a::after {
 	content: "";
     }
+
+    .pricing .card {
+	padding: 0 60px 0 0px;
+}
 }
 
