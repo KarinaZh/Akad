@@ -70,6 +70,81 @@ h2 {
   background-position: 0% 85%;
 }
 
+.posts .card {
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	max-width: 755px;
+}
+
+.posts h5 {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.posts h6 {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  text-align: left;
+  background-color: transparent;  
+}
+
+.posts p {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(153, 153, 153);
+  text-align: left;
+  max-width: 720px;
+}
+
+span {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #7beec7;
+  max-width: 190px;
+}
+
+.fa-heart {
+	color: #ea6a6a;
+	padding: 0 5px 0 15px;
+}
+
+.fa-comment-dots {
+	padding: 0 5px 0 20px;
+}
+
+.fas:hover {
+	color: #7beec7;
+}
+
+.posts .card-link {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+} 
+
+.posts .card-link:hover {
+	color: #7beec7;
+}
+
+.posts img {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
 .contact {
 	background-color: #7beec7;
 	width: 100%;
