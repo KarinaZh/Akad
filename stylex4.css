@@ -86,7 +86,7 @@ h2 {
   text-align: left;
 }
 
-.posts h6 {
+.posts h6, h6 {
   font-size: 14px;
   font-family: Montserrat, sans-serif;
   color: rgb(204, 204, 204);
@@ -143,6 +143,34 @@ span {
 .posts img {
 	box-sizing: border-box;
 	max-width: 100%;
+}
+
+.sidecolumn input {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgba(96, 96, 110, 0.502);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #ececec;
+  border-radius: 0;
+  border: none;
+}
+
+.sidecolumn input:focus {
+	box-shadow: none;
+	background-color: #ececec;
+}
+
+.sidecolumn form {
+  max-width: 262px;	
+  background-color: #ececec;
+}
+
+.fa-search {
+	color: rgba(96, 96, 110, 0.502);
+	padding-right: 15px;
+	font-size: 14px;
 }
 
 .contact {
