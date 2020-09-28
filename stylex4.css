@@ -103,7 +103,7 @@ h2 {
   max-width: 720px;
 }
 
-span {
+.posts span {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
@@ -171,6 +171,30 @@ span {
 	color: rgba(96, 96, 110, 0.502);
 	padding-right: 15px;
 	font-size: 14px;
+}
+
+.carousel-item h6 {
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+  text-align: center;
+}
+
+.carousel-item span {
+  color: rgb(96, 96, 110);
+}
+
+h6 {
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+}
+
+.carousel-indicators li {
+    background-color: #60606e;
+    padding: 0 40px 0 40px;
+}
+
+.carousel-indicators .active {
+	background-color: #7beec7;
 }
 
 .contact {

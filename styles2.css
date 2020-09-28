@@ -200,7 +200,7 @@ h5 {
   padding-top: 3px;
 }
 
-.carousel-indicators li:hover {
+.carousel-indicators .active {
   background-color: #7beec7;
 }
 
