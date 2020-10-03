@@ -173,28 +173,48 @@ h2 {
 	font-size: 14px;
 }
 
-.carousel-item h6 {
+.search-posts h6 {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.search-posts h5 {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+
+.search-posts span {
   color: rgb(153, 153, 153);
   font-weight: bold;
-  text-align: center;
 }
 
-.carousel-item span {
-  color: rgb(96, 96, 110);
+.progress-bar {
+  background-color: #7beec7;
 }
 
-h6 {
-  color: rgb(96, 96, 110);
-  font-weight: bold;
+.search-posts .card {
+  border: none;
+  border-radius: 0;
+  max-width: 270px;
 }
 
-.carousel-indicators li {
-    background-color: #60606e;
-    padding: 0 40px 0 40px;
+.search-posts .card-img {
+  border-radius: 0;
+  max-width: 85px;
 }
 
-.carousel-indicators .active {
-	background-color: #7beec7;
+.search-posts p {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(154, 154, 154);
+  text-align: left;
 }
 
 .contact {
