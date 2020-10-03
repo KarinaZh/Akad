@@ -173,7 +173,7 @@ h2 {
 	font-size: 14px;
 }
 
-.search-posts h6, .sidecolumn-list h6 {
+.search-posts h6, .sidecolumn-list h6, .sidecolumn-tags h6 {
   font-size: 14px;
   font-family: Montserrat, sans-serif;
   color: rgb(96, 96, 110);
@@ -231,6 +231,32 @@ h2 {
 
 .sidecolumn-list span {
   text-align: right;
+}
+
+.sidecolumn-tags {
+  max-width: 265px;
+}
+
+.sidecolumn-tags button {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 0;
+}
+
+.sidecolumn-tags button:hover {
+  color: #ffffff;  
+  background-color: #7beec7; 
+}
+
+.sidecolumn-tags button:focus {
+  box-shadow: none;
+  color: #ffffff;  
+  background-color: #7beec7; 
 }
 
 .contact {
