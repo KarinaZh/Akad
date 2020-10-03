@@ -173,7 +173,7 @@ h2 {
 	font-size: 14px;
 }
 
-.search-posts h6 {
+.search-posts h6, .sidecolumn-list h6 {
   font-size: 14px;
   font-family: Montserrat, sans-serif;
   color: rgb(96, 96, 110);
@@ -215,6 +215,22 @@ h2 {
   font-family: OpenSans, sans-serif;
   color: rgb(154, 154, 154);
   text-align: left;
+}
+
+.sidecolumn-list .list-group-item {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 3.429;
+  text-align: left;
+}
+
+.sidecolumn-list .list-group-item:hover {
+  color: #7beec7;
+}
+
+.sidecolumn-list span {
+  text-align: right;
 }
 
 .contact {
