@@ -52,7 +52,7 @@
 </div>
 </header>
 <main>
-<div class="container d-flex justify-content-between mt-5">
+<div class="container mt-5 d-flex justify-content-between flex-column-reverse flex-lg-row align-items-center align-items-lg-start">
 <div class="posts d-flex flex-column flex-wrap">
 <div class="card mt-2 mb-5">
   <img src="img/post1.png" alt="mountain">
@@ -132,6 +132,22 @@
   </div>
 </div>
   </div>
+  <div class="select-md-screen mt-3 d-flex flex-column align-items-center flex-wrap">
+    <select name="categories" size="1" class="py-1 my-1">
+      <option value="Categories">Categories</option>
+      <option value="Business">Business</option>
+      <option value="Photography">Photography</option>
+      <option value="Journal">Journal</option>
+      <option value="Web_development">Web development</option>
+    </select>
+    <select name="archives" size="1" class="py-1 my-1">
+      <option value="Archives">Archives</option>
+      <option value="Business">Business</option>
+      <option value="Photography">Photography</option>
+      <option value="Journal">Journal</option>
+      <option value="Web_development">Web development</option>
+    </select>
+  </div>
   <div class="sidecolumn-list my-4">
     <h6>Categories</h6>
     <ul class="list-group list-group-flush">
@@ -141,7 +157,7 @@
   <li class="list-group-item py-0 px-3 d-flex justify-content-between align-items-center">Web development <span>30</span></li>
 </ul>
   </div>
-  <div class="sidecolumn-tags my-4">
+  <div class="sidecolumn-tags my-3">
     <h6>Tags</h6>
     <div class="tags d-flex flex-wrap">
     <button class="btn my-1" type="submit">Css</button>
