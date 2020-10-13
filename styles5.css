@@ -70,6 +70,15 @@ h2 {
   background-position: 0% 85%;
 }
 
+iframe {
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+iframe:hover {
+  filter: grayscale(0);
+}
+
 .contact {
   background-color: #7beec7;
   width: 100%;
