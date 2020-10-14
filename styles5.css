@@ -79,6 +79,45 @@ iframe:hover {
   filter: grayscale(0);
 }
 
+.contact-form form {
+  max-width: 510px;
+}
+
+.contact-form input {
+  border-radius: 0;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(204, 204, 204);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.contact-form input:focus {
+  box-shadow: none;
+  border: 1px solid #7beec7;
+}
+
+.contact-form button {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #7beec7;
+  border-radius: 0;  
+}
+
+.contact-form button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.modifier {
+  height: 200px;
+  padding-bottom: 160px;
+}
+
 .contact {
   background-color: #7beec7;
   width: 100%;
