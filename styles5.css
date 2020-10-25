@@ -83,17 +83,30 @@ iframe:hover {
   max-width: 510px;
 }
 
-.contact-form input {
+.contact-form input, .contact-form textarea {
   border-radius: 0;
   font-size: 12px;
   font-family: Montserrat, sans-serif;
-  color: rgb(204, 204, 204);
+  color: rgb(96, 96, 110);
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
 }
 
+.contact-form input::placeholder {
+  color: rgb(204, 204, 204); 
+}
+
+.contact-form textarea::placeholder {
+  color: rgb(204, 204, 204); 
+}
+
 .contact-form input:focus {
+  box-shadow: none;
+  border: 1px solid #7beec7;
+}
+
+.contact-form textarea:focus {
   box-shadow: none;
   border: 1px solid #7beec7;
 }
@@ -113,9 +126,33 @@ iframe:hover {
   color: rgb(255, 255, 255);
 }
 
-.modifier {
+.contact-form textarea {
   height: 200px;
-  padding-bottom: 160px;
+}
+
+textarea {
+  overflow: hidden;
+  resize: none;
+}
+
+.contact-form .card {
+  border: none;
+  max-width: 535px;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.143;
+}
+
+.contact-form .card-text {
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+  color: rgb(153, 153, 153);
 }
 
 .contact {
@@ -126,6 +163,10 @@ iframe:hover {
 .contact .card {
   background: transparent;
   border: none;
+}
+
+.card-body .modifier {
+  font-weight: bold;
 }
 
 .contact h2 {
