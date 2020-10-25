@@ -257,6 +257,26 @@ footer nav a:last-child::after {
   color: #7beec7;
 }
 
+@media (max-width: 1199px) {
+  .contact-form .card {
+  max-width: 440px;
+}
+
+.map {
+  max-width: 465px;
+}
+}
+
+@media (max-width: 992px) {
+  .contact-form .card {
+  max-width: 510px;
+}
+
+.map {
+  max-width: 510px;
+}  
+}
+
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-toggler {
     display: flex;  
